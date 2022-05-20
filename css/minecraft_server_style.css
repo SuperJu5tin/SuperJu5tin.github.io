@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: rgb(77, 46, 18);
+}
+
+.top {
+    background: green;
+    margin: 0;
+    padding: 0;
+}
+
+.bottom {
+    background: rgb(77, 46, 18);
+}
+
+header {
+    background: green;
+    margin: 0;
+}
+
+nav {
+    background: black;
+    padding: 10px;
+}

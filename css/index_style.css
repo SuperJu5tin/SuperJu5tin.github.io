@@ -1,0 +1,9 @@
+body {
+    background: rgb(40, 189, 139);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    margin: 10px;
+}
