@@ -2,32 +2,30 @@
 <html>
     <head>
         <title>My Page</title>
-        <link rel="stylesheet" href="../css/style.css">
-        <link rel="stylesheet" href="../css/index_style.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/index_style.css">
     </head>
     <body>
         <header>
             <nav>
                 <ul>
-                    <li><a href="index.html"><button>Home</button></a></li>
-                    <li><a href="html/stuff.html"><button>Stuff</button></a></li>
-                    <li><a href="html/minecraft_server.html"><button>Minecraft Server</button></a></li>
+                    <li><a href="index.html"><button class="header">Home</button></a></li>
+                    <li><a href="html/stuff.html"><button class="header">Stuff</button></a></li>
+                    <li><a href="html/minecraft_server.html"><button class="header">Minecraft Server</button></a></li>
                 </ul>
             </nav>
         </header>
         <section>
             <h1>Welcome to my website</h1>
-            <button onclick="ez()">Learn about me</button>
-            <script type="text/javascript">
-                // 1. add an on click event handler to button
-                // 2. Everytime it clicks create a new element and put it on the page
-                // 3. Element should contain a fact about my self
-                // 4. Make it pop up randomly
-                document.getElementById("demo").addEventListener("click", myFunction);
-                console.log ('Hello World')
-                function ez() {
-                    // body...
-                }
-            </script>
+            <button id="myBtn">Learn about me</button>
+		<div data-="placeholder"></div>
+        <div>
+            <textarea data-="typing" placeholder="Type on" class="typing"></textarea>
+        </div>
+        <div>
+            <button data-="save" class="Save">Save</button>
+        </div>
+        </section>
+        <script src="java/JavaScript.js"></script>
     </body>
 </html>
