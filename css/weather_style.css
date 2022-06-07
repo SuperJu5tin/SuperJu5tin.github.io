@@ -23,3 +23,14 @@ body {
     grid-template-columns: 50% 50%;
     margin: 30px;
 }
+.loading {
+    position: absolute;
+    left: 40%;
+    background-position: center;
+    background-image: url(../img/loading.gif);
+    background-color: black;
+    background-repeat: no-repeat;
+    border-radius: 20%;
+    height: 300px;
+    width: 300px;
+}
