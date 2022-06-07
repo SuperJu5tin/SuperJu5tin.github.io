@@ -19,7 +19,7 @@ document.querySelector('[data-="Location"]').addEventListener("click", () => {
             .then((data) => displayWeather2(data))
         })
     } else { 
-    x.innerHTML = "Geolocation is not supported by this browser.";
+    document.querySelector('[data-="error"]').innerHTML = "Geolocation is not supported by this browser.";
 }})
 
 document.querySelector('[data-="City"]').addEventListener("keyup", (event) => {
