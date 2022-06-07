@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Page</title>
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/weather_style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="directory">
+                <ul>
+                    <li><a href="../index.html"><button class="header">Home</button></a></li>
+                    <li><a href="stuff.html"><button class="header">Stuff</button></a></li>
+                    <li><a href="minecraft_server.html"><button class="header">Minecraft Server</button></a></li>
+                    <li><a href="weather.html"><button class="header">Weather</button></a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="input">
+            <input type="text" placeholder="City" data-="City">
+            <button data-="Location">Get Location</button>
+            <br><p data-=""></p>
+        </section>
+        <section class="output">
+            <div class="City"><h1 data-="CityOutput"></h1></div>
+            <div class="container">
+                <div class="temp"><h3 data-="tempurature">Tempurature:</h3></div>
+                <div class="picture"><img src="" data-="icon"></div>
+                <div class="humidity"><h3 data-="humidity">Humidity:</h3></div>
+                <div class="descrition"><h4 data-="descrition">Description:</h4></div>
+                <div class="wind"><h3 data-="speed">Wind Speed:</h3></div>
+                <script src="../java/weather.js"></script>
+            </div>
+        </section>
+    </body>
+</html>

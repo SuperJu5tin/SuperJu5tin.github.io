@@ -7,14 +7,10 @@ body {
 section {
     margin: 10px;
 }
-.div-shadow {
-    height: 10px;
-    background: red;
-    width: 10px;
-}
+
 .typing {
     margin: 5px;
-		height: 200px;
-		width: 200px;
-		resize: none;
+	height: 200px;
+	width: 200px;
+	resize: none;
 }

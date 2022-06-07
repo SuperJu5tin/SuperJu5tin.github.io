@@ -9,13 +9,13 @@ button:hover {
     background-color: gray;
 } 
 
-nav ul {
+.directory ul {
     margin: 0;
     padding: 0;
     list-style-type: none;
   }
   
-nav li {
+.directory li {
     display: inline-block;
     margin-right: 20px;
   }
